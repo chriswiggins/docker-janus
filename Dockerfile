@@ -31,6 +31,7 @@ ARG JANUS_CONFIG_DEPS="\
 ARG JANUS_CONFIG_OPTIONS="\
     "
 ARG JANUS_BUILD_DEPS_DEV="\
+    libconfig-dev \
     libcurl4-openssl-dev \
     libjansson-dev \
     libnice-dev \
